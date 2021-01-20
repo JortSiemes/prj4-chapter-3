@@ -1,0 +1,57 @@
+body {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.navigatie {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.navigatie a {
+  float: left;
+  color: #dc143c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigatie a:hover {
+  background-color: #dc143c;
+  color: white;
+}
+
+.navigatie a.active {
+  color: orange;
+}
+
+.Text {
+  bottom: 30px;
+}
