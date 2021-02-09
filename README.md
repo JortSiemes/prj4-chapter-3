@@ -1,2 +1,1 @@
-#MyApp
-This is my app
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkpvcnRTaWVtZXMiLCJyZXBvMSI6InByajQtY2hhcHRlci0zIiwiaW5jbHVkZUxpbnQiOmZhbHNlLCJhdXRob3JJZCI6MjczMjUsImlhdCI6MTYxMjg4NTI0MX0.Oo0vl4BcI_sOGfO2XVHpwwRRNuWuFnx1Fvy2G8jdPRU)](https://www.deepcode.ai/app/gh/JortSiemes/prj4-chapter-3/_/dashboard?utm_content=gh%2FJortSiemes%2Fprj4-chapter-3)
