@@ -3,9 +3,6 @@ body{
 	padding: 0;
 	background: black;
 }
-h1{
-
-}
 
 .main{
 	height: 100vh;
@@ -205,29 +202,23 @@ li a:hover:not(.active) {
 	font-family: 'Oswald', sans-serif;
 	color: #B00D23;
 	text-indent: 40px;
-
 }
 
 .box3{
-	grid-column: 2/4;
-	grid-row: 2/5;
-	border-radius: 0px 20px 20px 0px;
+  grid-column: 2/4;
+  grid-row: 2/5;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .box3 img{
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	border-radius: 35px 35px 0px 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 35px 35px 0px 0px;
 }
 
 .box4{
-	/*
-	grid-column: 1/4;
-	grid-row: 2/5;
-	background-size: cover;
-	background: url("Images/Bond.jpg");
-	*/
+	color: white;
 }
 
 .box5{
@@ -239,20 +230,45 @@ li a:hover:not(.active) {
 .box7{
 	grid-column: 2/4;
 	grid-row: 6/8;
+  background-image: url(../Images/Ralph.jpg);
+  background-repeat: no-repeat;
+  background-size: 76%;
+  background-position: center;
+  background-color: white;
+  border-radius: 0px 0px 0px 35px;
 }
+
+.Takashi h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: black;
+  padding-left: 2em;
+  padding-top: 0px;
+}
+
+.Takashi h3{
+  font-family: 'Oswald', sans-serif;
+  color: #B00D23;
+  padding-left: 1.5em;
+  padding-bottom: 0px;
+}
+
 
 .box8{
 	grid-column: 4/5;
 	grid-row: 1/2;
+	content: center;
 }
 
 .Transformation {
   width: 100px;
   height: 100px;
-  background: white;
+  background: #B00D23;
   transition-property: width;
   transition-duration: 3s;
   transition-delay: 1s;
+  border-radius: 0px 4px 4px 0px;
+
 }
 
 .Transformation:hover {
@@ -261,15 +277,20 @@ li a:hover:not(.active) {
 
 .Transformation p{
 	color: white;
+  opacity: 0%;
 	display: inline;
 	font-family: 'Oswald', sans-serif;
 	font-size: 3.5em;
 }
 
 .Transformation:hover p{
-	color: #B00D23;
+	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-size: 3.5em;
+  opacity: 100%;
+    transition-property: opacity;
+  transition-duration: 8s;
+  transition-delay: 1s;
 }
 
 
