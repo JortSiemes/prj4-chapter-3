@@ -1,6 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
 body{
-	margin: 0;
-	padding: 0;
 	background: black;
 }
 
@@ -130,9 +138,7 @@ li a:hover:not(.active) {
 }
 
 .wrapper > div{
-	/*
-	background: #919191;
-	*/	
+
 }
 
  
@@ -232,7 +238,7 @@ li a:hover:not(.active) {
 	grid-row: 6/8;
   background-image: url(../Images/Ralph.jpg);
   background-repeat: no-repeat;
-  background-size: 76%;
+  background-size: 54%;
   background-position: center;
   background-color: white;
   border-radius: 0px 0px 0px 35px;
@@ -250,6 +256,7 @@ li a:hover:not(.active) {
   font-family: 'Oswald', sans-serif;
   color: #B00D23;
   padding-left: 1.5em;
+  padding-top: 20px;
   padding-bottom: 0px;
 }
 
@@ -257,7 +264,6 @@ li a:hover:not(.active) {
 .box8{
 	grid-column: 4/5;
 	grid-row: 1/2;
-	content: center;
 }
 
 .Transformation {
@@ -292,8 +298,6 @@ li a:hover:not(.active) {
   transition-duration: 8s;
   transition-delay: 1s;
 }
-
-
 
 .box9{
 	grid-column: 1/2;
@@ -330,4 +334,4 @@ background-size: 1800% 1800%;
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
+}c
