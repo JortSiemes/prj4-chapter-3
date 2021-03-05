@@ -236,12 +236,12 @@ li a:hover:not(.active) {
 .box7{
 	grid-column: 2/4;
 	grid-row: 6/8;
-  background-image: url(../images/Ralph.jpg);
-  background-repeat: no-repeat;
-  background-size: 54%;
-  background-position: center;
-  background-color: white;
-  border-radius: 0px 0px 0px 35px;
+  	background-image: url(../images/Ralph.jpg);
+  	background-repeat: no-repeat;
+  	background-size: 54%;
+  	background-position: center;
+  	background-color: white;
+  	border-radius: 0px 0px 0px 35px;
 }
 
 .Takashi h2{
