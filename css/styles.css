@@ -236,7 +236,7 @@ li a:hover:not(.active) {
 .box7{
 	grid-column: 2/4;
 	grid-row: 6/8;
-  background-image: url(../Images/Ralph.jpg);
+  background-image: url(../images/Ralph.jpg);
   background-repeat: no-repeat;
   background-size: 54%;
   background-position: center;
