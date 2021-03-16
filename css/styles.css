@@ -12,6 +12,11 @@ body{
 	background: black;
 }
 
+.margincheck{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .main{
 	height: 100vh;
 	width: 100%;
